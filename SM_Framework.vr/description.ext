@@ -1,0 +1,250 @@
+author					= "[SM]BJS";
+loadScreen				= "img\intro.paa";
+onLoadName				= "SM Framework";
+onLoadMission			= "StowMarines Private Military Company";
+DisabledAI				= 1;
+joinUnassigned			= 1;
+disableChannels[]  		= {0,6};	// 0 = GLOBAL, 1 = SIDE, 2 = COMMAND, 3 = GROUP, 4 = VEHICLE, 5 = DIRECT, 6 = SYSTEM
+enableDebugConsole		= 1;
+showGPS					= 1;
+showCompass				= 1;
+showWatch				= 1;
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 44;
+};
+
+respawn					= 3;		// 0 = NONE, 1 = BIRD, 2 = INSTANT, 3 = BASE, 4 = GROUP, 5 = SIDE
+respawnDelay			= 5;		// Time in seconds to respawn.
+respawnDialog			= 0;
+respawnOnStart			= 0;		// Start mission as if each player just respawned (Dialogs etc). 1 = TRUE, 0 = FALSE.
+respawnButton 			= 1;
+
+corpseManagerMode		= 2;
+corpseLimit 			= 0;
+wreckManagerMode		= 0;
+
+// REMOTE EXECUTION WHITELIST
+class CfgRemoteExec {
+	class Functions {
+		class ctab_fnc_addNotification {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_addToPairs {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_addUserMarker {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_centerMapOnPlayerPosition {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_checkGear {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_close {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_createHelmetCam {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_createUAVCam {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_ctrlMapCenter {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_currentTime {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_degreeToOctant {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_deleteHelmetCam {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_deleteUAVCam {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class ctab_fnc_deleteUserMarker {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_dirTo {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_distance2D {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_drawBFTMarkers {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_drawHook {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_drawMarkers {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_drawUserMarkers {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_findUserMarker {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_getBackgroundPosition {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_getCopilot {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_getFromPairs {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_getInfMarkerIcon {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_getPlayerEncryptionKey {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_getPlayerSides {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_getSettings {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_getUserMarkerList {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_isDialog {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_lockUAVCamTo {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_onIfClose {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_onIfKeyDown {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_onIfOpen {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_onPlayerInventoryChanged {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_open {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_processCuratorKey {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_processNotification {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_remoteControlUAV {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_setInterfacePosition {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_setSettings {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_setToPairs {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_toggleIfPosition {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_toggleMapTools {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_translateUserMarker {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_unitInEnabledVehicleSeat {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_updateInterface {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_updateLists {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_updateUserMarkerList {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class cTab_fnc_userMenuSelect {
+			allowedTargets = 0;
+			jip = 0;
+		};
+	};
+	class Commands {
+		jip = 1;
+		mode = 1;
+		class deleteMarkerLocal {
+			allowedTargets = 0;
+			jip = 1;
+		};
+		class hint {
+			allowedTargets = 0;
+			jip = 0;
+		};
+		class hintSilent {
+			allowedTargets = 0;
+			jip = 0;
+		};
+	};
+};
