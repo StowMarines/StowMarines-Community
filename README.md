@@ -48,3 +48,5 @@ Password: Beagle=Buddy
 _Remember to connect to the server and test your mission before hand!_
 
 _To load your mission, join the server and the type (in chat) "#login Beagle=Buddy" and then send another message "#missions#". This will take you to the mission load screen. From here simply find your mission and load it_
+
+_Please make sure you put PMC.lythium back on after you're finished testing your mission_
