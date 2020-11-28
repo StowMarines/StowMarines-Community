@@ -5,7 +5,7 @@
 ["ACRE_PRC152", "default", 5, "description", "THESEUS"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC152", "default", 6, "description", "HELIOS"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC152", "default", 7, "description", "ATHENA"] call acre_api_fnc_setPresetChannelField;
-["ACRE_PRC152", "default", 8, "description", "THESEUS LR"] call acre_api_fnc_setPresetChannelField;
+["ACRE_PRC152", "default", 8, "description", "MEDICAL"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC152", "default", 9, "description", "AIR"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC152", "default", 10, "description", "COMMAND"] call acre_api_fnc_setPresetChannelField;
 
@@ -16,6 +16,6 @@
 ["ACRE_PRC117F", "default", 5, "name", "THESEUS"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC117F", "default", 6, "name", "HELIOS"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC117F", "default", 7, "name", "ATHENA"] call acre_api_fnc_setPresetChannelField;
-["ACRE_PRC117F", "default", 8, "name", "THESEUS LR"] call acre_api_fnc_setPresetChannelField;
+["ACRE_PRC117F", "default", 8, "name", "MEDICAL"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC117F", "default", 9, "name", "AIR"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC117F", "default", 10, "name", "COMMAND"] call acre_api_fnc_setPresetChannelField;
