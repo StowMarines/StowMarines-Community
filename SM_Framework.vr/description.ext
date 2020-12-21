@@ -4,7 +4,7 @@ onLoadName				= "SM Framework";
 onLoadMission			= "StowMarines Private Military Company";
 DisabledAI				= 1;
 joinUnassigned			= 1;
-disableChannels[]  		= {0,6};	// 0 = GLOBAL, 1 = SIDE, 2 = COMMAND, 3 = GROUP, 4 = VEHICLE, 5 = DIRECT, 6 = SYSTEM
+disableChannels[]  		= {6};	// 0 = GLOBAL, 1 = SIDE, 2 = COMMAND, 3 = GROUP, 4 = VEHICLE, 5 = DIRECT, 6 = SYSTEM
 enableDebugConsole		= 1;
 showGPS					= 1;
 showCompass				= 1;
