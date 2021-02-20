@@ -1,20 +1,21 @@
 -Removed Arsenal Netting
--Remoed Theseus
+-Removed Theseus
 -Updated radio nets
 -ASR AI Requirement Removed
 -Group ID's fixed
 -Athena renamed to Zeus
--Game Master Modules corrected to meet new zeus var names
+-Game Master Modules corrected to meet new Zeus var names
 -Halved the amount of spare slots
 -Added Kratos
 -Added Athena
 -Corrected ORBAT
 -Unit Commander renamed to Mission Commander
 -2nd in Command renamed to Platoon Sergeant & Intelligence Officer
--Hades 1 renamed to hades
+-Hades 1 renamed to Hades
 -Hades 2 renamed to Iris
 -Spawn positions slightly altered
 -Default Map Marker locations corrected
 -Helipad checks script carried over from the training map
 -Arsenal Blacklist updated
--Arsenal blacklist initialisation optimised
+-Arsenal blacklist initialization optimized
+-Loading image changed
