@@ -1,5 +1,5 @@
 author					= "[SM]BJS";
-loadScreen				= "img\intro.paa";
+loadScreen				= "img\introPic.paa";
 onLoadName				= "SM Framework";
 onLoadMission			= "StowMarines Private Military Company";
 DisabledAI				= 1;
@@ -23,7 +23,7 @@ respawnDialog			= 0;
 respawnOnStart			= 0;		// Start mission as if each player just respawned (Dialogs etc). 1 = TRUE, 0 = FALSE.
 respawnButton 			= 1;
 
-corpseManagerMode		= 2;
+corpseManagerMode		= 0;
 corpseLimit 			= 0;
 wreckManagerMode		= 0;
 
