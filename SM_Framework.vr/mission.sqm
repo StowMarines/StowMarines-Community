@@ -1,4 +1,4 @@
-version=53;
+version=54;
 class EditorData
 {
 	moveGridStep=1;
@@ -16,17 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=420;
+		nextID=432;
 	};
 	class Camera
 	{
-		pos[]={7545.041,128.25131,7515.5605};
-		dir[]={-0.67767137,-0.73553461,-0.0014679621};
-		up[]={-0.73558223,0.6773386,-0.0015904701};
-		aside[]={-0.002174007,-2.2446011e-006,1.0000815};
+		pos[]={7497.8271,91.779243,7498.085};
+		dir[]={-0.57149553,-0.78556311,0.23725103};
+		up[]={-0.72553164,0.61877614,0.30119738};
+		aside[]={0.3834151,-1.7273123e-008,0.9235788};
 	};
 };
 binarizationWanted=0;
+sourceName="SM_Framework";
 addons[]=
 {
 	"A3_Ui_F",
@@ -385,14 +386,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7455.5713,5,7498.3755};
-						angles[]={-0,4.7046747,0};
+						position[]={7455.5708,5,7498.375};
+						angles[]={0,4.7046747,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="call{[""hp3"",helipad3] execVM ""scripts\helipadChecks.sqf"";}";
+						init="call{[""hp3"",helipad3] execVM ""scripts\helipadChecks.sqf""; ""hp3"" setMarkerPos (helipad3 modelToWorld [0,0,0]);}";
+						name="helipad3";
 						disableSimulation=1;
 					};
 					id=87;
@@ -426,14 +428,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7455.9541,5,7480.3872};
+						position[]={7455.77,5,7481.709};
 						angles[]={0,4.6993165,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="call{[""hp4"",helipad4] execVM ""scripts\helipadChecks.sqf"";}";
+						init="call{[""hp4"",helipad4] execVM ""scripts\helipadChecks.sqf""; ""hp4"" setMarkerPos (helipad4 modelToWorld [0,0,0]);}";
+						name="helipad4";
 						disableSimulation=1;
 					};
 					id=88;
@@ -468,13 +471,14 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7455.9639,5.0019999,7533.9399};
-						angles[]={-0,4.7046747,0};
+						angles[]={0,4.7046747,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="call{[""hp1"",helipad1] execVM ""scripts\helipadChecks.sqf"";}";
+						init="call{[""hp1"",helipad1] execVM ""scripts\helipadChecks.sqf""; ""hp1"" setMarkerPos (helipad1 modelToWorld [0,0,0]);}";
+						name="helipad1";
 						disableSimulation=1;
 					};
 					id=89;
@@ -516,7 +520,8 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""hp2"",helipad2] execVM ""scripts\helipadChecks.sqf"";}";
+						init="call{[""hp2"",helipad2] execVM ""scripts\helipadChecks.sqf""; ""hp2"" setMarkerPos (helipad2 modelToWorld [0,0,0]);}";
+						name="helipad2";
 						disableSimulation=1;
 					};
 					id=90;
@@ -897,7 +902,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isMedicalFacility";
-							expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+							expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
 							class Value
 							{
 								class data
@@ -957,7 +962,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isMedicalFacility";
-							expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+							expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
 							class Value
 							{
 								class data
@@ -1017,7 +1022,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isMedicalFacility";
-							expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+							expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
 							class Value
 							{
 								class data
@@ -1326,7 +1331,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isMedicalFacility";
-							expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+							expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
 							class Value
 							{
 								class data
@@ -1431,7 +1436,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7456.332,6.8728976,7533.7349};
-						angles[]={-0,4.7676153,0};
+						angles[]={0,4.7676153,0};
 					};
 					side="Empty";
 					flags=4;
@@ -6282,7 +6287,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0,1] select (_this getUnitTrait 'engineer'))|| {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 							class Value
 							{
 								class data
@@ -6440,7 +6445,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0,1] select (_this getUnitTrait 'engineer'))|| {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 							class Value
 							{
 								class data
@@ -6599,7 +6604,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0,1] select (_this getUnitTrait 'engineer'))|| {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 							class Value
 							{
 								class data
@@ -6758,7 +6763,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0,1] select (_this getUnitTrait 'engineer'))|| {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 							class Value
 							{
 								class data
@@ -6916,7 +6921,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0,1] select (_this getUnitTrait 'engineer'))|| {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 							class Value
 							{
 								class data

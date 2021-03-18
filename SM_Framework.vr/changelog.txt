@@ -1,21 +1,29 @@
+Update Version 1.3:
+
+-Corrected LR Nets
+-Helipad checks fixed
+-Helipad markers now dynamically change position (depending on where the mission maker places the helipad
+-Intro image fixed/updated
+
+Update Version 1.2:
+
 -Removed Arsenal Netting
--Removed Theseus
+-Remoed Theseus
 -Updated radio nets
 -ASR AI Requirement Removed
 -Group ID's fixed
 -Athena renamed to Zeus
--Game Master Modules corrected to meet new Zeus var names
+-Game Master Modules corrected to meet new zeus var names
 -Halved the amount of spare slots
 -Added Kratos
 -Added Athena
 -Corrected ORBAT
 -Unit Commander renamed to Mission Commander
 -2nd in Command renamed to Platoon Sergeant & Intelligence Officer
--Hades 1 renamed to Hades
+-Hades 1 renamed to hades
 -Hades 2 renamed to Iris
 -Spawn positions slightly altered
 -Default Map Marker locations corrected
 -Helipad checks script carried over from the training map
 -Arsenal Blacklist updated
--Arsenal blacklist initialization optimized
--Loading image changed
+-Arsenal blacklist initialisation optimised
