@@ -14,7 +14,7 @@ class Header
 {
 	gameType = COOP;
 	minPlayers = 1;
-	maxPlayers = 44;
+	maxPlayers = 50;
 };
 
 respawn					= 3;		// 0 = NONE, 1 = BIRD, 2 = INSTANT, 3 = BASE, 4 = GROUP, 5 = SIDE

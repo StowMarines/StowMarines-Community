@@ -1,8 +1,16 @@
+Update Version 1.3.1:
+
+- Removed Misc Operator Slots
+- Zeus slots renumbered (game master modules edited to match)
+- Helios 5 slot added (lobby order update to match)
+- Max Players altered to match that of the server
+- Arsenal Blacklist updated
+
 Update Version 1.3:
 
 -Corrected LR Nets
 -Helipad checks fixed
--Helipad markers now dynamically change position (depending on where the mission maker places the helipad
+-Helipad markers now dynamically change position (depending on where the mission maker places the helipad)
 -Intro image fixed/updated
 
 Update Version 1.2:
