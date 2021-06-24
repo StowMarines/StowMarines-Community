@@ -14,7 +14,7 @@ Update Version 1.4:
 - Dyanmic Simulation enabled for Framework buildings
 - Vehicle Retexture Station Added
 - SM Logo added to \img for use in missions
-- Wethles Module Added & Configured
+- Werthles Module Added & Configured
 - 3x Headless Client Virtual Entities Added & Configured
 
 Update Version 1.3.3:
