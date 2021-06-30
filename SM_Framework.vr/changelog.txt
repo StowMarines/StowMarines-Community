@@ -1,3 +1,6 @@
+Hotfix 1.4.1:
+- Texture Changer Icons missing fixed
+
 Update Version 1.4:
 - SMRT Blackhawk added
 - SMRT Merlin Added
