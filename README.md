@@ -31,7 +31,7 @@ A mission making framework for SM Members to use to create their mid-week/sunday
 
 **6. Edit the mission to how you wish, try not to place too many assets or AI**
 
-**7. Go to your mission directory again and open the file called 'description.ext'. Edit the following avriables: author, onLoadName & onLoadMission.**
+**7. Go to your mission directory again and open the file called 'description.ext'. Edit the following variables: author, onLoadName & onLoadMission.**
 
 **8. Save this file, save the in-game mission. When you're ready to export the file, go to Scenario>Export>Export To Multiplayer (in the editor)**
 
