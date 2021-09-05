@@ -26,7 +26,8 @@ A mission making framework for SM Members to use to create their mid-week/sunday
 
 
 
-**5. Create a new mission on the map you want to use and press CTRL + V**
+**5. Create a new mission on the map you want to use and press CTRL + V, then CTRL + S (make sure you untick the binarize option)**
+![image](https://user-images.githubusercontent.com/68105236/132140142-09de8d5a-8405-49fb-93fb-dedb01bad1de.png)
 
 **6. Edit the mission to how you wish, try not to place too many assets or AI**
 
