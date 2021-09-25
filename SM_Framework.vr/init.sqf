@@ -24,11 +24,14 @@
 ["ACRE_PRC117F", "default", 11, "description", "2nd PLATOON"] call acre_api_fnc_setPresetChannelField;
 ["ACRE_PRC117F", "default", 12, "description", "ATC/VTS"] call acre_api_fnc_setPresetChannelField;
 
+logistics switchMove "AmovPercMstpSnonWnonDnon_Ease";
+logistics disableAI "all";
+
 helipadChecks = compile preprocessFile "scripts\helipadChecks.sqf";
 fnc_VicCamo = compile preprocessFile "scripts\fnc_VicCamo.sqf";
+fnc_Logistics = compile preprocessFile "scripts\fnc_Logistics.sqf";
 
 //Ace Interaction Functions
-//Vehicle Textures
 //Merlin
 MerlinP = ["MerlinP","Merlin","img\256Merlin.paa",{hint"Please choose your camo type";},{true}] call ace_interact_menu_fnc_createAction;
 MerlinC_D = ["MerlinC_D","Desert Camo","",{["Merlin", "Desert"] remoteExec ["fnc_VicCamo", 0];},{true}] call ace_interact_menu_fnc_createAction;
@@ -37,10 +40,21 @@ MerlinC_G = ["MerlinC_G","Grey Camo","",{["Merlin", "Grey"] remoteExec ["fnc_Vic
 
 //Leopard
 LeopardP = ["LeopardP","Leopard","img\256Leopard.paa",{hint"Please choose your camo type";},{true}] call ace_interact_menu_fnc_createAction;
-//LeopardC_A = ["LeopardC_A","Arid Camo","",{["Leopard", "Arid"] remoteExec ["fnc_VicCamo", 0];},{true}] call ace_interact_menu_fnc_createAction;
 LeopardC_D = ["LeopardC_D","Desert Camo","",{["Leopard", "Desert"] remoteExec ["fnc_VicCamo", 0];},{true}] call ace_interact_menu_fnc_createAction;
 LeopardC_J = ["LeopardC_J","Jungle Camo","",{["Leopard", "Jungle"] remoteExec ["fnc_VicCamo", 0];},{true}] call ace_interact_menu_fnc_createAction;
 LeopardC_S = ["LeopardC_S","Shard Camo","",{["Leopard", "Shard"] remoteExec ["fnc_VicCamo", 0];},{true}] call ace_interact_menu_fnc_createAction;
+
+//Logistics Crate Guy
+spawnCrate = ["spawnCrate","Spawn Crate","",{hint"Please choose your crate type";},{true}] call ace_interact_menu_fnc_createAction;
+ammoCrate = ["ammoCrate","Standard Ammunition","",{["InfAmmo"] remoteExec ["fnc_Logistics", 0];},{true}] call ace_interact_menu_fnc_createAction;
+FSGCrate = ["FSGCrate","FSG Ammunition","",{["FSG"] remoteExec ["fnc_Logistics", 0];},{true}] call ace_interact_menu_fnc_createAction;
+rocketsCrate = ["rocketsCrate","Rockets","",{["Rockets"] remoteExec ["fnc_Logistics", 0];},{true}] call ace_interact_menu_fnc_createAction;
+missilesCrate = ["missilesCrate","Missiles","",{["Missiles"] remoteExec ["fnc_Logistics", 0];},{true}] call ace_interact_menu_fnc_createAction;
+explosivesCrate = ["explosivesCrate","Explosives","",{["Explosives"] remoteExec ["fnc_Logistics", 0];},{true}] call ace_interact_menu_fnc_createAction;
+utilCrate = ["utilCrate","Utilities","",{["Util"] remoteExec ["fnc_Logistics", player];},{true}] call ace_interact_menu_fnc_createAction;
+vicCrate = ["vicCrate","Vehicle Ammunition","",{["VicAmmo"] remoteExec ["fnc_Logistics", player, true];},{true}] call ace_interact_menu_fnc_createAction;
+medCrate = ["medCrate","Medical Supplies","",{["Medical"] remoteExec ["fnc_Logistics", 0];},{true}] call ace_interact_menu_fnc_createAction;
+emptyCrate = ["emptyCrate","Empty Crate","",{["Empty"] remoteExec ["fnc_Logistics", 0];},{true}] call ace_interact_menu_fnc_createAction;
 
 //Sling Load Fix
 ["lsl_slingLocality", 

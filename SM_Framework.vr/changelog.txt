@@ -1,3 +1,11 @@
+Update Version 1.5:
+- Medical Crates lowered to just one in the Field Hospital
+- New Crate Spawner (Logistics Shed) system implemented
+- Werthles Dependency Removed
+- Duplicate HQ Marker Removed
+- Markers changed from Independent to Blufor
+- Removed Tryk Dependency
+
 Hotfix 1.4.1:
 - Texture Changer Icons missing fixed
 

@@ -27,6 +27,23 @@ corpseManagerMode		= 0;
 corpseLimit 			= 0;
 wreckManagerMode		= 0;
 
+class CfgSounds
+{
+	sounds[] = {};
+	class Crate
+	{
+		name = "Crate";
+		sound[] = { "sounds\crate.ogg", 100, 1, 20 };
+		titles[] = { 1, "*The Logistics Shed*" };
+	};
+	class Arp
+	{
+		name = "Arp";
+		sound[] = { "sounds\arp.ogg", 100, 1, 20 };
+		titles[] = { 1, "*物流棚*" };
+	};
+};
+
 // REMOTE EXECUTION WHITELIST
 class CfgRemoteExec {
 	class Functions {
