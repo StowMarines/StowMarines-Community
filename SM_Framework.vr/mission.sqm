@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=638;
+		nextID=646;
 	};
 	class Camera
 	{
-		pos[]={7515.9331,71.77243,7515.207};
-		dir[]={-0.75968373,-0.63980347,0.11635408};
-		up[]={-0.63243133,0.76853734,0.096863993};
-		aside[]={0.1513966,-6.1852916e-008,0.98847604};
+		pos[]={7460.5317,35.891792,7507.9858};
+		dir[]={-0.85626614,-0.49185878,-0.15786253};
+		up[]={-0.48371211,0.87067103,-0.089178033};
+		aside[]={-0.18130755,-3.2887328e-008,0.98344541};
 	};
 };
 binarizationWanted=0;
@@ -49,7 +49,6 @@ addons[]=
 	"ace_realisticnames",
 	"acre_sys_prc152",
 	"UK3CB_Factions_NAP_B",
-	"TRYK_Uniform",
 	"CUP_Buildings_Config",
 	"A3_Structures_F_Civ_InfoBoards",
 	"A3_Structures_F_Enoch_Industrial_Houses",
@@ -65,7 +64,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=26;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -184,60 +183,55 @@ class AddonsMetaData
 		};
 		class Item17
 		{
-			className="TRYK_Uniform";
-			name="TRYK_Uniform";
-		};
-		class Item18
-		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
 		};
-		class Item19
+		class Item18
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item19
 		{
 			className="A3_Structures_F_Enoch_Industrial";
 			name="Arma 3 Contact Platform - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item20
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item22
+		class Item21
 		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item23
+		class Item22
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item24
+		class Item23
 		{
 			className="milgp_headgear_cfg";
 			name="milgp_headgear_cfg";
 		};
-		class Item25
+		class Item24
 		{
 			className="UK3CB_Factions_ADM";
 			name="3CB Factions - ADM";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item26
+		class Item25
 		{
 			className="ace_medical_engine";
 			name="ACE3 - Medical Engine";
@@ -257,6 +251,9 @@ randomSeed=4788791;
 class ScenarioData
 {
 	author="[SM]BJS";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -5107,7 +5104,7 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="TRYK_DMARPAT_T";
+								typeName="U_B_CTRG_2";
 								isBackpack=0;
 								class MagazineCargo
 								{
