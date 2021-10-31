@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=673;
+		nextID=674;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=646;
+		nextID=654;
 	};
 	class Camera
 	{
-		pos[]={7460.5317,35.891792,7507.9858};
-		dir[]={-0.85626614,-0.49185878,-0.15786253};
-		up[]={-0.48371211,0.87067103,-0.089178033};
-		aside[]={-0.18130755,-3.2887328e-008,0.98344541};
+		pos[]={7534.856,102.71461,7560.0884};
+		dir[]={-0.72188485,-0.61633736,-0.3146736};
+		up[]={-0.56499487,0.78747982,-0.24628419};
+		aside[]={-0.39959311,2.6557245e-008,0.91669673};
 	};
 };
 binarizationWanted=0;
@@ -252,9 +252,6 @@ class ScenarioData
 {
 	author="[SM]BJS";
 };
-class CustomAttributes
-{
-};
 class Mission
 {
 	class Intel
@@ -362,7 +359,7 @@ class Mission
 						class Attribute0
 						{
 							property="VehicleCustomization";
-							expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
+							expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
 							class Value
 							{
 								class data
@@ -482,7 +479,7 @@ class Mission
 						class Attribute1
 						{
 							property="VehicleCustomization";
-							expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
+							expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
 							class Value
 							{
 								class data
@@ -602,7 +599,7 @@ class Mission
 						class Attribute1
 						{
 							property="VehicleCustomization";
-							expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
+							expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
 							class Value
 							{
 								class data
@@ -1680,7 +1677,7 @@ class Mission
 						class Attribute0
 						{
 							property="VehicleCustomization";
-							expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
+							expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
 							class Value
 							{
 								class data

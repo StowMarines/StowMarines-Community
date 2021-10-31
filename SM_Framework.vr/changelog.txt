@@ -1,3 +1,7 @@
+Hotfix 1.5.1:
+- Multiple crate spawn/destruction bug fixed
+- Arsenal Blacklist Updated
+
 Update Version 1.5:
 - Medical Crates lowered to just one in the Field Hospital
 - New Crate Spawner (Logistics Shed) system implemented
