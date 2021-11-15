@@ -1,3 +1,12 @@
+Update Version 1.5.2:
+- CMTs changed from Doctors to Regular Medics
+- M1277 CROWS swapped for M1245 CROWS (M2 & Mk19)
+- Vehicle Inventories Cleared by Default (aside from Apollo Vics)
+- M1165A1 GMV (SAG-2/M2/M240) Added
+- Multiple crate spawn/destruction bug fixed again
+- Vehicle ReTexture Station & Scripts Removed
+- Script added to force teleport players out of destroyed helicopter wrecks
+
 Hotfix 1.5.1:
 - Multiple crate spawn/destruction bug fixed
 - Arsenal Blacklist Updated
