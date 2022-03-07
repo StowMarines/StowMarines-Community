@@ -127,7 +127,31 @@ VicAmmo = {
 	_spCheck = nearestObjects[_crateSpawn,["landVehicle","Air","Thing","CAManBase"],3] select 0;
 	
 	if (isNil "_spCheck") then {
-		_box = "Box_NATO_AmmoVeh_F" createVehicle _crateSpawn;
+		_box = "B_Slingload_01_Ammo_F" createVehicle _crateSpawn;
+		hint "Crate Spawned";
+    } else {
+		hint "Something is in the way";
+    };
+};
+
+VicFuel = {
+	_crateSpawn = (getPosATL crateSpawn);
+	_spCheck = nearestObjects[_crateSpawn,["landVehicle","Air","Thing","CAManBase"],3] select 0;
+	
+	if (isNil "_spCheck") then {
+		_box = "B_Slingload_01_Fuel_F" createVehicle _crateSpawn;
+		hint "Crate Spawned";
+    } else {
+		hint "Something is in the way";
+    };
+};
+
+VicRepair = {
+	_crateSpawn = (getPosATL crateSpawn);
+	_spCheck = nearestObjects[_crateSpawn,["landVehicle","Air","Thing","CAManBase"],3] select 0;
+	
+	if (isNil "_spCheck") then {
+		_box = "B_Slingload_01_Repair_F" createVehicle _crateSpawn;
 		hint "Crate Spawned";
     } else {
 		hint "Something is in the way";

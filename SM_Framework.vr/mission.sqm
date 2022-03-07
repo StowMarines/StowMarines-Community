@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=682;
+		nextID=683;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=670;
+		nextID=677;
 	};
 	class Camera
 	{
-		pos[]={7487.2505,57.334209,7484.2646};
-		dir[]={-0.77605283,-0.56828618,0.27354696};
-		up[]={-0.53598499,0.82281369,0.1889274};
-		aside[]={0.33244264,-2.3424946e-007,0.94314098};
+		pos[]={7514.5142,82.690033,7558.0313};
+		dir[]={-0.76472932,-0.58742207,-0.26482451};
+		up[]={-0.55508858,0.80927408,-0.19222629};
+		aside[]={-0.32723436,7.613562e-008,0.94494772};
 	};
 };
 binarizationWanted=0;
@@ -42,7 +42,7 @@ addons[]=
 	"rhsusf_c_melb",
 	"ace_compat_rhs_usf3",
 	"rhsusf_c_MATV",
-	"SMRT_BLU_RETEX",
+	"vehicle_retex",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Characters_F",
 	"A3_Weapons_F",
@@ -2700,14 +2700,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7405.708,5.5381842,7507.9482};
+						position[]={7405.708,5.5384388,7507.9478};
 						angles[]={0,0.67629766,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						description="Joint Terminal Attack Controller (Iris)@Apollo";
+						description="Joint Terminal Attack Controller (Nemesis)@Apollo";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2757,7 +2757,7 @@ class Mission
 					};
 					id=502;
 					type="B_Soldier_A_F";
-					atlOffset=0.0004234314;
+					atlOffset=0.00067806244;
 					class CustomAttributes
 					{
 						class Attribute0

@@ -30,6 +30,8 @@ logistics disableAI "all";
 helipadChecks = compile preprocessFile "scripts\helipadChecks.sqf";
 fnc_Logistics = compile preprocessFile "scripts\fnc_Logistics.sqf";
 
+[] execVM 'scripts\fnc_Cleanup.sqf'; //Comment this out if you don't want bodies to disappear
+
 //Logistics Crate Guy
 spawnCrate = ["spawnCrate","Spawn Crate","",{hint"Please choose your crate type";},{true}] call ace_interact_menu_fnc_createAction;
 ammoCrate = ["ammoCrate","Standard Ammunition","",{["InfAmmo"] remoteExec ["fnc_Logistics", player];},{true}] call ace_interact_menu_fnc_createAction;
@@ -38,7 +40,9 @@ rocketsCrate = ["rocketsCrate","Rockets","",{["Rockets"] remoteExec ["fnc_Logist
 missilesCrate = ["missilesCrate","Missiles","",{["Missiles"] remoteExec ["fnc_Logistics", player];},{true}] call ace_interact_menu_fnc_createAction;
 explosivesCrate = ["explosivesCrate","Explosives","",{["Explosives"] remoteExec ["fnc_Logistics", player];},{true}] call ace_interact_menu_fnc_createAction;
 utilCrate = ["utilCrate","Utilities","",{["Util"] remoteExec ["fnc_Logistics", player];},{true}] call ace_interact_menu_fnc_createAction;
-vicCrate = ["vicCrate","Vehicle Ammunition","",{["VicAmmo"] remoteExec ["fnc_Logistics", player, true];},{true}] call ace_interact_menu_fnc_createAction;
+vicAmmoCrate = ["vicAmmoCrate","Vehicle Ammunition","",{["VicAmmo"] remoteExec ["fnc_Logistics", player, true];},{true}] call ace_interact_menu_fnc_createAction;
+vicFuelCrate = ["vicFuelCrate","Vehicle Fuel","",{["VicFuel"] remoteExec ["fnc_Logistics", player, true];},{true}] call ace_interact_menu_fnc_createAction;
+vicRepairCrate = ["vicRepairCrate","Vehicle Repair","",{["VicRepair"] remoteExec ["fnc_Logistics", player, true];},{true}] call ace_interact_menu_fnc_createAction;
 medCrate = ["medCrate","Medical Supplies","",{["Medical"] remoteExec ["fnc_Logistics", player];},{true}] call ace_interact_menu_fnc_createAction;
 emptyCrate = ["emptyCrate","Empty Crate","",{["Empty"] remoteExec ["fnc_Logistics", player];},{true}] call ace_interact_menu_fnc_createAction;
 
