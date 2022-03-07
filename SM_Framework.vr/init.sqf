@@ -30,8 +30,6 @@ logistics disableAI "all";
 helipadChecks = compile preprocessFile "scripts\helipadChecks.sqf";
 fnc_Logistics = compile preprocessFile "scripts\fnc_Logistics.sqf";
 
-[] execVM 'scripts\fnc_Cleanup.sqf'; //Comment this out if you don't want bodies to disappear
-
 //Logistics Crate Guy
 spawnCrate = ["spawnCrate","Spawn Crate","",{hint"Please choose your crate type";},{true}] call ace_interact_menu_fnc_createAction;
 ammoCrate = ["ammoCrate","Standard Ammunition","",{["InfAmmo"] remoteExec ["fnc_Logistics", player];},{true}] call ace_interact_menu_fnc_createAction;
