@@ -1,3 +1,22 @@
+Update Version 1.5.5
+- Blacklisted the ASP-1 Kir (https://github.com/StowMarines/StowMarines-Community/issues/102)
+- Blacklisted some thermal scopes (https://github.com/StowMarines/StowMarines-Community/issues/101)
+- Blacklisted some throwables (https://github.com/StowMarines/StowMarines-Community/issues/99)
+- Removed old TRYK Blacklisted items
+
+Update Version 1.5.4
+- Swapped RHS littlebirds out for SMRT littlebirds
+- Removed Hades slot
+- Removed ATC/VTS NET
+- Changed Apollo NET to 99
+- Changed Merlin Texture to grey
+- Added camo nets and green camo to Leopard 2A4
+- Changed FSG Ammo Contents
+- Fixed CMO ORBAT positioning
+
+Update Version 1.5.3.2
+- Remove 40mm Vics
+
 Update Version 1.5.3.1:
 - Removed cleanup script
 

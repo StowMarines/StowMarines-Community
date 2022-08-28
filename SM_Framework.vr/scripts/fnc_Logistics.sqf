@@ -32,7 +32,7 @@ FSG = {
 		_box addMagazineCargoGlobal ["rhsusf_100Rnd_762x51_m61_ap", 10]; //100rnd M240 Box M61 AP
 		_box addMagazineCargoGlobal ["rhs_mag_M441_HE", 10]; //M441 HE Grenade Round
 		_box addMagazineCargoGlobal ["200Rnd_65x39_cased_Box_Tracer_Red", 5]; //6.5mm 200Rnd Belt Tracer (Red)
-		_box addMagazineCargoGlobal ["SPS_KAC_LWAMG_100rnd_Box_M80A1", 5]; //100rnd M80A1 Box
+		_box addMagazineCargoGlobal ["SPS_KAC_LAMG_M856A1_150rnd_T_Box", 5]; //100rnd M80A1 Box
 		
 		hint "Crate Spawned";
     } else {
