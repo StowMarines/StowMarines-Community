@@ -1,3 +1,7 @@
+Update Version 1.5.6
+- Blacklisted the Mk3A1 (https://github.com/StowMarines/StowMarines-Community/issues/99)
+- Blacklisted the invisible backpack (https://github.com/StowMarines/StowMarines-Community/issues/105)
+
 Update Version 1.5.5
 - Blacklisted the ASP-1 Kir (https://github.com/StowMarines/StowMarines-Community/issues/102)
 - Blacklisted some thermal scopes (https://github.com/StowMarines/StowMarines-Community/issues/101)
