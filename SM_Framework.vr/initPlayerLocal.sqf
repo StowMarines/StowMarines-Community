@@ -14,6 +14,8 @@ _boxes = [box1, box2];
 [logistics, 0, ["ACE_MainActions","spawnCrate"], missilesCrate] call ace_interact_menu_fnc_addActionToObject;
 [logistics, 0, ["ACE_MainActions","spawnCrate"], explosivesCrate] call ace_interact_menu_fnc_addActionToObject;
 [logistics, 0, ["ACE_MainActions","spawnCrate"], utilCrate] call ace_interact_menu_fnc_addActionToObject;
+[logistics, 0, ["ACE_MainActions","spawnCrate"], jerry_W_Logi] call ace_interact_menu_fnc_addActionToObject;
+[logistics, 0, ["ACE_MainActions","spawnCrate"], jerry_D_Logi] call ace_interact_menu_fnc_addActionToObject;
 [logistics, 0, ["ACE_MainActions","spawnCrate"], vicAmmoCrate] call ace_interact_menu_fnc_addActionToObject;
 [logistics, 0, ["ACE_MainActions","spawnCrate"], vicFuelCrate] call ace_interact_menu_fnc_addActionToObject;
 [logistics, 0, ["ACE_MainActions","spawnCrate"], vicRepairCrate] call ace_interact_menu_fnc_addActionToObject;

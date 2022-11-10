@@ -122,6 +122,30 @@ Util = {
     };
 };
 
+Jerry_W = {
+	_crateSpawn = (getPosATL crateSpawn);
+	_spCheck = nearestObjects[_crateSpawn,["landVehicle","Air","Thing","CAManBase"],3] select 0;
+	
+	if (isNil "_spCheck") then {
+		_box = "rhsusf_props_ScepterMFC_OD" createVehicle _crateSpawn;		
+		hint "Jerry Can Spawned";
+    } else {
+		hint "Something is in the way";
+    };
+};
+
+Jerry_D = {
+	_crateSpawn = (getPosATL crateSpawn);
+	_spCheck = nearestObjects[_crateSpawn,["landVehicle","Air","Thing","CAManBase"],3] select 0;
+	
+	if (isNil "_spCheck") then {
+		_box = "rhsusf_props_ScepterMFC_D" createVehicle _crateSpawn;		
+		hint "Jerry Can Spawned";
+    } else {
+		hint "Something is in the way";
+    };
+};
+
 VicAmmo = {
 	_crateSpawn = (getPosATL crateSpawn);
 	_spCheck = nearestObjects[_crateSpawn,["landVehicle","Air","Thing","CAManBase"],3] select 0;

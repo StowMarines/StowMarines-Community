@@ -1,3 +1,8 @@
+Update Version 1.5.7
+- Added Jerry Cans to the Logistics Shed & to the Crate Spawn Guy (https://discord.com/channels/424105874710331392/1038784710287032412)
+- Removed CROWS vic
+- Removed woodland variants (all switched to desert)
+
 Update Version 1.5.6
 - Blacklisted the Mk3A1 (https://github.com/StowMarines/StowMarines-Community/issues/99)
 - Blacklisted the invisible backpack (https://github.com/StowMarines/StowMarines-Community/issues/105)
